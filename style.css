@@ -1,6 +1,6 @@
 .nav {
     list-style-type: none;
-    background-color: rgb(252, 206, 255);
+    background-color: rgb(255, 206, 249);
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -26,7 +26,6 @@ p {
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
-    text-indent: 50px;
 }
 
 h1 {
@@ -42,20 +41,43 @@ body {
     background-image: url("images/background3.webp");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 div.polaroid {
     text-align: center;
-    width: 45%;
+    width: 47%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 20px;
-    display:inline-block
-  }
-  
-  div.container {
+    display:inline-block;
+}
+
+div.container {
+text-align: center;
+padding: 10px 20px;
+display:inline-block
+}
+
+.dot {
+    background-color: blue;
+    color: magenta;
+    display: inline-block;
+    padding: 30px;
+    margin: 30px;
+
+}
+
+.contacts {
+    font-size: larger;
+}
+
+.eastsideprep {
     text-align: center;
-    padding: 10px 20px;
-    display:inline-block
-  }
+}
+
+.resourcelist {
+    text-align: center;
+    font-size: larger;
+    line-height: 1.8;
+}
